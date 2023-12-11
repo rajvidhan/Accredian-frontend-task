@@ -59,3 +59,11 @@ button:hover{
     margin-top: 300px;
     font-size: 60px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        max-width: 200px;
+        min-width: 300px;
+    }
+
+}
